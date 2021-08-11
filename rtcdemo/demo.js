@@ -15,7 +15,7 @@ var Demo = (function () {
 
     // Set up the SignalR connection
     var hub = $.connection.webRtcHub;
-    $.connection.hub.url = 'http://202.166.161.157:8099/signalr/hubs';
+    $.connection.hub.url = 'https://202.166.161.157/signalr/hubs';
     $.connection.hub.start(function () {
         console.log('connected to signal server.');
     });
